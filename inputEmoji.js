@@ -33,11 +33,11 @@
 					$list.show();
 					$input.focus();
 					setTimeout(function () {
-						$(document).on('click', toggleEmoji);
+						$(document).on('click', closeEmoji);
 					}, 1);
 				} else {
 					$list.hide();
-					$(document).off('click', toggleEmoji);
+					$(document).off('click', closeEmoji);
 				}
 
 
