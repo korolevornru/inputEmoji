@@ -44,14 +44,12 @@
 			}
 
 			function closeEmoji() {
-				console.log("closeEmoji");
 				$list.hide();
 				$(document).off('click', closeEmoji);
 
 			}
 
 			function clickEmoji(ev) {
-				console.log("clickEmoji");
 				if (input.selectionStart || input.selectionStart == '0') {
 					var startPos = input.selectionStart;
 					var endPos = input.selectionEnd;
